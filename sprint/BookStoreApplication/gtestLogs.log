@@ -1,0 +1,66 @@
+2022-11-18 07:43:56,356 [INFO] com.book.demo.BookStoreApplication [restartedMain] Starting BookStoreApplication using Java 17.0.4.1 on LIN80018809 with PID 14708 (C:\Users\ADURGA\Desktop\sprint\BookStoreApplication\bin\main started by adurga in C:\Users\ADURGA\Desktop\sprint\BookStoreApplication)
+2022-11-18 07:43:56,366 [INFO] com.book.demo.BookStoreApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-18 07:43:56,439 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-18 07:43:56,440 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-18 07:43:57,168 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-18 07:43:57,244 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2022-11-18 07:43:58,008 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8011 (http)
+2022-11-18 07:43:58,021 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-18 07:43:58,022 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-18 07:43:58,115 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-18 07:43:58,116 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1673 ms
+2022-11-18 07:43:58,370 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-18 07:43:58,441 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-18 07:43:58,624 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-18 07:43:58,731 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-11-18 07:43:58,953 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-11-18 07:43:58,976 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-18 07:43:59,608 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-18 07:43:59,615 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 07:44:00,293 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 07:44:00,708 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-18 07:44:00,761 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8011 (http) with context path ''
+2022-11-18 07:44:00,777 [INFO] com.book.demo.BookStoreApplication [restartedMain] Started BookStoreApplication in 4.877 seconds (JVM running for 5.503)
+2022-11-18 07:50:53,561 [INFO] com.book.demo.service.OrderServiceImplTest [main] Starting OrderServiceImplTest using Java 17.0.4.1 on LIN80018809 with PID 12152 (started by adurga in C:\Users\ADURGA\Desktop\sprint\BookStoreApplication)
+2022-11-18 07:50:53,563 [INFO] com.book.demo.service.OrderServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-18 07:50:54,436 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-18 07:50:54,545 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+2022-11-18 07:50:55,318 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-18 07:50:55,413 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-18 07:50:55,685 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-18 07:50:55,929 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-18 07:50:56,297 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-18 07:50:56,342 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-18 07:50:57,338 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-18 07:50:57,352 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 07:50:58,390 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 07:50:59,226 [INFO] com.book.demo.service.OrderServiceImplTest [main] Started OrderServiceImplTest in 6.118 seconds (JVM running for 7.905)
+2022-11-18 07:50:59,758 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 07:50:59,761 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-11-18 07:50:59,768 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-11-18 08:05:38,987 [INFO] com.book.demo.BookStoreApplication [restartedMain] Starting BookStoreApplication using Java 17.0.4.1 on LIN80018809 with PID 22772 (C:\Users\ADURGA\Desktop\sprint\BookStoreApplication\bin\main started by adurga in C:\Users\ADURGA\Desktop\sprint\BookStoreApplication)
+2022-11-18 08:05:38,988 [INFO] com.book.demo.BookStoreApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-18 08:05:39,073 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-18 08:05:39,073 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-18 08:05:39,873 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-18 08:05:39,945 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2022-11-18 08:05:40,737 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8011 (http)
+2022-11-18 08:05:40,753 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-18 08:05:40,754 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-18 08:05:40,864 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-18 08:05:40,865 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1791 ms
+2022-11-18 08:05:41,116 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-18 08:05:41,177 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-18 08:05:41,369 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-18 08:05:41,478 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-11-18 08:05:41,705 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-11-18 08:05:41,727 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-18 08:05:42,423 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-18 08:05:42,433 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 08:05:43,077 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 08:05:43,454 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-18 08:05:43,513 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8011 (http) with context path ''
+2022-11-18 08:05:43,528 [INFO] com.book.demo.BookStoreApplication [restartedMain] Started BookStoreApplication in 5.088 seconds (JVM running for 5.728)
+2022-11-18 08:49:58,482 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8011-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-18 08:49:58,485 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8011-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-11-18 08:49:58,491 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8011-exec-2] Completed initialization in 5 ms
